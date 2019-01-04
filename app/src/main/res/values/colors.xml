@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1E88E5</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="gray100">#F5F5F5</color>
+    <color name="gray200">#EEEEEE</color>
+    <color name="gray300">#E0E0E0</color>
+    <color name="gray400">#BDBDBD</color>
+    <color name="all_toolbarTitleTextColor">@android:color/white</color>
+    <color name="all_toolbarIconColor">@android:color/white</color>
+    <color name="categories_iconColor">@color/gray300</color>
+
+</resources>

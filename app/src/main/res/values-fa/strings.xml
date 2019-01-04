@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ایران نیوز</string>
+    <string name="all_home">خانه</string>
+    <string name="all_categories">دسته بندی</string>
+    <string name="all_bookmarks">کتابخانه</string>
+    <string name="all_videos">ویدیو</string>
+    <string name="home_viewAll">مشاهده همه</string>
+    <string name="home_latestNews">آخرین اخبار</string>
+    <string name="home_searchHint">عبارت مورد نظر را اینجا جستجو کنید…</string>
+    <string name="all_unknownError">خطا در دریافت اطلاعات</string>
+    <string name="category_topStories">داغ ترین اخبار</string>
+    <string name="category_World">بین الملل</string>
+    <string name="category_business">شغلی</string>
+    <string name="category_iran">ایران</string>
+    <string name="category_health">سلامت</string>
+    <string name="category_technology">تکنولوژی</string>
+    <string name="bookmark_addNewBookmark">هیچ خبری در کتابخانه نداری! همین الان شروع کن</string>
+    <string name="setting_viewTitle">تنظیمات</string>
+    <string name="setting_selectLocaleMessage">زبان را انتخاب کنید</string>
+    <string name="setting_restartMessage">برای اعمال تغییرات باید اپلیکیشن را کامل بسته و دوباره شروع کنید</string>
+    <string name="search_noResultMessage">موردی یافت نشد!</string>
+</resources>

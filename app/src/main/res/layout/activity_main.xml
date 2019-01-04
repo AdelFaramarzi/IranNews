@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+
+    <com.ss.bottomnavigation.BottomNavigation
+        android:id="@+id/bottomNavigation_main"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:elevation="6dp">
+
+        <com.ss.bottomnavigation.TabItem
+            android:id="@+id/tab_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:tab_icon="@drawable/selected_home"
+            app:tab_text="@string/all_home"
+            app:tab_text_color="@color/colorPrimary"
+            app:unselected_tab_icon="@drawable/home"
+            app:unselected_tab_text_color="@color/gray300" />
+
+        <com.ss.bottomnavigation.TabItem
+            android:id="@+id/tab_category"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:tab_icon="@drawable/selected_buffer"
+            app:tab_text="@string/all_categories"
+            app:tab_text_color="@color/colorPrimary"
+            app:unselected_tab_icon="@drawable/buffer"
+            app:unselected_tab_text_color="@color/gray300" />
+
+        <com.ss.bottomnavigation.TabItem
+            android:id="@+id/tab_bookmarks"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:tab_icon="@drawable/selected_library"
+            app:tab_text="@string/all_bookmarks"
+            app:tab_text_color="@color/colorPrimary"
+            app:unselected_tab_icon="@drawable/library"
+            app:unselected_tab_text_color="@color/gray300" />
+
+        <com.ss.bottomnavigation.TabItem
+            android:id="@+id/tab_videos"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:tab_icon="@drawable/selected_youtube_play"
+            app:tab_text="@string/all_videos"
+            app:tab_text_color="@color/colorPrimary"
+            app:unselected_tab_icon="@drawable/youtube_play"
+            app:unselected_tab_text_color="@color/gray300" />
+
+    </com.ss.bottomnavigation.BottomNavigation>
+
+    <FrameLayout
+        android:id="@+id/frame_main_fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation_main" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_above="@id/bottomNavigation_main"
+        android:background="@drawable/gradiant_shadow"/>
+
+    <FrameLayout
+        android:id="@+id/frame_main_progressBarContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomNavigation_main"
+        android:background="@android:color/white"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center" />
+    </FrameLayout>
+</RelativeLayout>

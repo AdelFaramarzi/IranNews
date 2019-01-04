@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">IranNews</string>
+    <string name="all_home">Home</string>
+    <string name="all_categories">Categories</string>
+    <string name="all_bookmarks">Bookmarks</string>
+    <string name="all_videos">Videos</string>
+    <string name="home_viewAll">View All</string>
+    <string name="home_latestNews">Latest News</string>
+    <string name="home_searchHint">Search Here…</string>
+    <string name="all_unknownError">Unknown Error</string>
+    <string name="category_topStories">Top Stories</string>
+    <string name="category_World">World</string>
+    <string name="category_business">Business</string>
+    <string name="category_iran">Iran</string>
+    <string name="category_health">Health</string>
+    <string name="category_technology">Technology</string>
+    <string name="bookmark_addNewBookmark">There is no bookmarked news… Start Now!</string>
+    <string name="setting_viewTitle">Settings</string>
+    <string name="setting_selectLocaleMessage">Select application default language</string>
+    <string name="setting_restartMessage">Please restart application for changing the language</string>
+    <string name="search_noResultMessage">No Result!</string>
+
+</resources>
